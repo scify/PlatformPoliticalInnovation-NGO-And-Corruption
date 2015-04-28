@@ -10,6 +10,20 @@ body {
     padding-top: 20px;
 }
 
+.no_right_padding{
+    padding-right:0px;
+}
+.no_left_padding{
+    padding-left: 0px;
+}
+
+.height-818{
+    height: 818px
+}
+.height-1533{
+    height: 1533px;
+}
+
 /* <editor-fold descr="main-content"> */
 
 #main-content.container, #main-content .row {
@@ -151,7 +165,7 @@ body {
 }
 
 #full-footer #fundingInfo {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 #footer a {
@@ -221,6 +235,4 @@ body {
     margin-bottom: 60px;
 }
 
-#cube, #exclamation{
-    padding-left: 0px;
-}
+
