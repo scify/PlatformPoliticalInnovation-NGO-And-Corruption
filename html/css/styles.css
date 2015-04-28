@@ -6,27 +6,22 @@ body {
     background-color: #e1eae7;
 }
 
-.box {
+#main-content .box {
     background-color: white;
     padding: 15px;
 }
 
-.equal-height {
+#main-content .equal-height {
     position: relative;
 }
 
-.equal-height .box {
+#main-content .equal-height .box {
     background-color: White;
     bottom: 0;
     left: 15px;
     position: absolute;
     right: 0px;
     top: 0;
-}
-
-#chat {
-    margin-top: 60px;
-    margin-bottom: 60px;
 }
 
 #main-content .row.fixed-height [class*="col-"] {
@@ -87,24 +82,12 @@ body {
     display: none;
 }
 
+
+/* <editor-fold descr="menu"> */
 #header {
     margin-bottom: 40px;
 }
 
-#vis {
-    background-color: #FFF9AA;
-    position: relative;
-}
-
-#vis-descr {
-    position: absolute;
-    width: 600px;
-    height: 100%;
-    background-color: #222;
-    left: 0;
-}
-
-/* <editor-fold descr="menu"> */
 #menu {
     float: right;
     padding-top: 20px;
@@ -135,17 +118,17 @@ body {
     text-decoration: none;
 }
 
-/* </editor-fold> */
-
-#shit {
+#donate {
 
     background-color: #ffae19;
 }
 
-#shit:hover a {
+#donate:hover a {
     text-decoration: none;
 }
+/* </editor-fold> */
 
+/* <editor-fold descr="footer"> */
 #footer h2 {
     color: #fdd017;
 }
@@ -229,6 +212,12 @@ body {
     background: none repeat scroll 0 0 #222222;
 }
 
+/* </editor-fold> */
+
+#chat {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
 
 #cube, #exclamation{
     padding-left: 0px;
