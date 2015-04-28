@@ -2,6 +2,16 @@ body {
     font-size: 15px;
 }
 
+.padding-bottom {
+    padding-bottom: 20px;
+}
+
+.padding-top {
+    padding-top: 20px;
+}
+
+/* <editor-fold descr="main-content"> */
+
 #main-content.container, #main-content .row {
     background-color: #e1eae7;
 }
@@ -32,14 +42,6 @@ body {
 
 #main-content {
     padding: 25px;
-}
-
-.padding-bottom {
-    padding-bottom: 20px;
-}
-
-.padding-top {
-    padding-top: 20px;
 }
 
 #main-content #wrapper {
@@ -77,11 +79,7 @@ body {
     font-size: 42px;
     font-weight: bold;
 }
-
-#references {
-    display: none;
-}
-
+/* </editor-fold> */
 
 /* <editor-fold descr="menu"> */
 #header {
@@ -213,6 +211,10 @@ body {
 }
 
 /* </editor-fold> */
+
+#references {
+    display: none;
+}
 
 #chat {
     margin-top: 60px;
