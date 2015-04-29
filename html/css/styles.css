@@ -1,9 +1,9 @@
 h1, h2, h3{
-    font-family: "Notos Bolt";
+    font-family: Ubuntu;
 }
 body {
-    font-size: 18px;
-    font-family: "Roboto";
+    font-size: 16px;
+    font-family: Ubuntu;
 }
 
 .padding-bottom {
@@ -29,8 +29,8 @@ body {
 .no_bottom_padding{
     padding-bottom: 0px;
 }
-.height-900{
-    height: 900px
+.height-800{
+    height: 800px
 }
 .height-1850{
     height: 1850px;
