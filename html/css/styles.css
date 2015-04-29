@@ -1,5 +1,9 @@
+h1, h2, h3{
+    font-family: "Notos Bolt";
+}
 body {
-    font-size: 15px;
+    font-size: 18px;
+    font-family: "Roboto";
 }
 
 .padding-bottom {
@@ -18,17 +22,18 @@ body {
 .no_right_padding{
     padding-right:0px;
 }
+
 .no_left_padding{
     padding-left: 0px;
 }
 .no_bottom_padding{
     padding-bottom: 0px;
 }
-.height-715{
-    height: 715px
+.height-900{
+    height: 900px
 }
-.height-1500{
-    height: 1500px;
+.height-1850{
+    height: 1850px;
 }
 
 .color-blue{
@@ -37,6 +42,10 @@ body {
 .color-red{
     color: red;
 }
+.imagepadding{
+    padding-top: 50px;
+}
+
 /* <editor-fold descr="main-content"> */
 
 #main-content.container, #main-content .row {
@@ -87,7 +96,7 @@ body {
 }
 
 #main-content .highlight {
-    background-color: yellow;
+    background-color: #FFF200;
     padding-bottom: 15px;
     padding-top: 15px;
 }
@@ -178,7 +187,7 @@ body {
 }
 
 #full-footer #fundingInfo {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #footer a {
