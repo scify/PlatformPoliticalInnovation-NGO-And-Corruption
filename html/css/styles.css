@@ -9,21 +9,34 @@ body {
 .padding-top {
     padding-top: 20px;
 }
-
+.margin-top{
+    margin-top: 20px;
+}
+.width-1080{
+    width: 1080px;
+}
 .no_right_padding{
     padding-right:0px;
 }
 .no_left_padding{
     padding-left: 0px;
 }
-
-.height-818{
-    height: 818px
+.no_bottom_padding{
+    padding-bottom: 0px;
 }
-.height-1533{
-    height: 1533px;
+.height-715{
+    height: 715px
+}
+.height-1179{
+    height: 1179px;
 }
 
+.color-blue{
+    color: dodgerblue;
+}
+.color-red{
+    color: red;
+}
 /* <editor-fold descr="main-content"> */
 
 #main-content.container, #main-content .row {
