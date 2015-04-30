@@ -7,11 +7,11 @@ body {
 }
 
 @media (min-width: 1200px) {
-    .height-800{
-        height: 800px
+    .height-700{
+        height: 700px
     }
-    .height-1850{
-        height: 1850px;
+    .height-1515{
+        height: 1515px;
     }
     .width-1080{
         width: 1080px;
@@ -36,6 +36,40 @@ body {
         vertical-align: top;
     }
 
+    .ellas{
+        display: none;
+    }
+    .swiss{
+        display: none;
+    }
+}
+
+@media (max-width: 1199px) {
+
+    .swiss{
+        width: 40%;
+        height: 20%;
+        float: right;
+        margin-top: -40px;
+    }
+    .ellas{
+        width: 40%;
+        height: 20%;
+        float: right;
+        margin-top: -40px;
+    }
+    /*#main-content .row.fixed-height [class*="col-"] {*/
+        /*float: none;*/
+        /*display: flex;*/
+        /*vertical-align: top;*/
+    /*}*/
+
+}
+.full-width{
+    width: 100%;
+}
+.float-right{
+    float: right;
 }
 
 .padding-bottom {
@@ -59,7 +93,9 @@ body {
 .no_bottom_padding{
     padding-bottom: 0px;
 }
-
+#main-content .row.white-back{
+    background-color: #ffffff;
+}
 
 .color-blue{
     color: dodgerblue;
