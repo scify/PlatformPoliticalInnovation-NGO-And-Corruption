@@ -48,25 +48,20 @@ body {
 
     .swiss{
         width: 40%;
-        height: 20%;
+        height: 15%;
         float: right;
         margin-top: -40px;
     }
     .ellas{
         width: 40%;
-        height: 20%;
+        height: 15%;
         float: right;
         margin-top: -40px;
     }
-    /*#main-content .row.fixed-height [class*="col-"] {*/
-        /*float: none;*/
-        /*display: flex;*/
-        /*vertical-align: top;*/
-    /*}*/
-
 }
-.full-width{
-    width: 100%;
+.euro-map{
+    width: 50%;
+    margin-left: 25%;
 }
 .float-right{
     float: right;
