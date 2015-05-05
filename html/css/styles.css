@@ -17,7 +17,11 @@ h3, .h3 {
 
 .euro-map{
     width: 50%;
-    margin-left: 25%;
+    /*margin-left: 25%;*/
+}
+.euro-map-tags{
+    width: 25%;
+    margin-left: 10%;
 }
 .float-right{
     float: right;
