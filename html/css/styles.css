@@ -2,16 +2,19 @@ h1, h2, h3{
     font-family: Ubuntu, sans-serif;
 }
 body {
-    font-size: 15px;
+    font-size: 13px;
     font-family: Ubuntu, sans-serif;
+    position: relative;
 }
-
+h1, .h1{
+    font-size: 26px;
+}
 h2, .h2 {
-    font-size: 28px;
+    font-size: 22px;
 }
 
 h3, .h3 {
-    font-size: 23px;
+    font-size: 16px;
 }
 
 
@@ -41,7 +44,15 @@ h3, .h3 {
 .no_right_padding{
     padding-right:0px;
 }
-
+.margin-right{
+    margin-right: 15px;
+}
+.margin-left{
+    margin-left: 15px;
+}
+.padding-right{
+    padding-right: 20px;
+}
 .no_left_padding{
     padding-left: 0px;
 }
@@ -115,16 +126,21 @@ h3, .h3 {
 
 
 #main-content.container, #main-content .row {
-    background-color: #e1eae7;
+    background-color: #F2F2F2;
 }
 
 #main-content .box {
     background-color: white;
     padding: 15px;
+    position: relative;
 }
 
 #main-content {
     padding: 25px;
+}
+
+#wrapper{
+    position: static;
 }
 
 #main-content #wrapper {
@@ -164,7 +180,7 @@ h3, .h3 {
 }
 
 .highlight h1 {
-    font-size: 32px;
+    font-size: 26px;
 }
 /* </editor-fold> */
 
@@ -202,6 +218,73 @@ h3, .h3 {
     color: white;
     text-decoration: none;
 }
+
+/***contentsMenu****/
+.fixed{
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+.fixed .contentsMenu-inner{
+    max-width: 1080px;
+    margin: 0 auto;;
+}
+
+.contentsMenu-placeholder{
+    margin: 0 0 20px 0;
+}
+
+
+#contentsMenu{
+    top:0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#contents {
+    background-color: #444444;
+    float: left;
+    width: 100%;
+
+    /*margin-top: 20px;*/
+    /*padding-top: 10px;*/
+    /*padding-right: 95px;*/
+    /*padding-left: 20px;*/
+}
+
+#contents-main-menu{
+    text-align: left;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+#contents li {
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#contents li a {
+    line-height: 50px;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#contents .contents-item {
+    transition: 0.2s ease-in-out;
+}
+
+#contents .contents-item:hover {
+    background-color: #fcac0b;
+}
+
+#contents .contents-item:hover a {
+    color: white;
+    text-decoration: none;
+}
+/*****************/
+
 
 #donate {
 

@@ -7,19 +7,23 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css?v1">
+    <link rel="stylesheet" type="text/css" href="css/ui.totop.css">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link href="css/backTop.css" rel="stylesheet">
+
     <!-- Google Analytics -->
     <script src="GoogleAnalytics.js"></script>
     <!-- End Google Analytics -->
 </head>
 <body>
+
 <section id="header">
     <div class="container">
         <div class="row clearfix">
             <div class="col-md-2">
                 <!-- .logo -->
                 <div class="logo">
-                    <h1><a id="logo" href="http://politeia2.org" title="Πολιτεία 2.0"><img class="scale-with-grid"
+                    <h1><a id="logo" href="http://politeia2.org" title="Πολιτεία 2.0"><img id="politiaImage" class="scale-with-grid"
                                                                                            src="http://politeia2.org/wp-content/uploads/2014/12/logo-politeia2-e1424950238205.png?1e2ab6"
                                                                                            alt="Πολιτεία 2.0"/></a></h1>
                 </div>
@@ -52,8 +56,24 @@
 <div id="wrapper">
 
 <div class="row title highlight">
-    <div class="col-lg-12 ">
+    <div class="col-lg-12">
         <h1>Αντιμετωπίζοντας τη διαφθορά: Ο ρόλος των ΜΚΟ σε Ελλάδα και Ελβετία</h1>
+    </div>
+</div>
+
+<div class="row ">
+    <div class="col-md-12" id="contentsMenu">
+        <div class="menu_wrapper">
+            <nav id="contents">
+                <ul id="contents-main-menu">
+                    <li class="contents-item"><a href="#research"><span>Έρευνα</span></a></li>
+                    <li class="contents-item"><a href="#corruption"><span>Πως μετριέται η διαφθορά</span></a></li>
+                    <li class="contents-item"><a href="#twoCountries"><span>Οι "χώρες-άκρα της διαφθοράς"</span></a></li>
+                    <li class="contents-item"><a href="#comparison"><span>Σύγκριση Ελβετία-Ελλάδα</span></a></li>
+                    <li class="contents-item"><a href="#conclusion"><span>Συμπεράσματα</span></a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
 </div>
 
@@ -81,11 +101,12 @@
 
 <div class="row highlight">
     <div class="col-lg-12">
-        <h2>Η έρευνα</h2>
+        <h2 id="research">Η έρευνα</h2>
+        <!--<a href="#politiaImage">Top</a>-->
     </div>
 </div>
 
-<div id="research" class="row">
+<div class="row">
     <div class="col-lg-12 padding-top padding-bottom">
         <div class="box">
             <h3>Τι μελετήσαμε;</h3>
@@ -110,7 +131,9 @@
 
 
 <div class="row highlight">
-    <div class="col-lg-12 "><h2>Tι είναι και πώς μετριέται η διαφθορά;</h2></div>
+    <div class="col-lg-12" id="corruption"><h2>Tι είναι και πώς μετριέται η διαφθορά;</h2>
+        <!--<a href="#politiaImage">Top</a>-->
+    </div>
 </div>
 <div class="row fixed-height padding-top">
     <div class="col-lg-3 equal-height">
@@ -140,7 +163,7 @@
     </div>
 </div>
 <div class="row fixed-height padding-top padding-bottom">
-    <div class="col-lg-6 equal-height">
+    <div class="col-lg-6 equal-height no_right_padding">
         <div class="box">
             <img height="150" src="res/transparency_international.png">
             <br><br><br>
@@ -154,7 +177,7 @@
 
             </p>
             <br>
-            <br>
+
             <p>
                 <b>Ορισμός</b> <br>
                 Ορίζεται ως η κατάχρηση εξουσίας που έχει ανατεθεί (“entrusted power”) για ιδιωτικό όφελος.
@@ -182,7 +205,7 @@
             </p>
         </div>
     </div>
-    <div class="col-lg-6 ">
+    <div class="col-lg-6  no_right_padding">
         <div class="box">
             <img height="150" src="res/european.png">
             <br><br><br>
@@ -199,7 +222,7 @@
 
             <p>
 
-            <br>
+
             <p>
                 <b>Ορισμός</b>
                 <br>
@@ -207,7 +230,7 @@
                 για ιδιωτικό όφελος».</b>
             </p>
 
-            <br>
+
             <br>
             <br>
             <br>
@@ -247,7 +270,8 @@
 <!---MAP--->
 <div class="row highlight">
     <div class="col-lg-12">
-        <h2>Οι “χώρες - άκρα” της διαφθοράς</h2>
+        <h2 id="twoCountries">Οι “χώρες - άκρα” της διαφθοράς</h2>
+        <!--<a href="#politiaImage">Top</a>-->
     </div>
 </div>
 
@@ -310,20 +334,21 @@
 </div>
 
 
-<div class="row highlight">
+<div class="row highlight" id="comparison">
     <div class="col-lg-12 ">
         <h2>Eλβετία - Eλλάδα: H σύγκριση δύο “κόσμων”</h2>
+        <!--<a href="#politiaImage">Top</a>-->
     </div>
 </div>
 
 <div class="row hidden-xs hidden-md hidden-sm padding-top padding-bottom">
-    <div class="col-lg-6 no_right_padding">
+    <div class="col-lg-6 ">
         <div class="box">
             <img src="res/switzerland.png">
         </div>
     </div>
 
-    <div class="col-lg-6">
+    <div class="col-lg-6 no_right_padding">
         <div class="box">
             <img src="res/Greece.png">
         </div>
@@ -332,8 +357,8 @@
 
 
 <div class="row fixed-height padding-bottom">
-    <div class="col-lg-6  equal-height no_right_padding">
-        <div class="box">
+    <div class="col-lg-6  equal-height">
+        <div class="box margin-right">
             <div class="row white-back">
                 <div class="col-sm-12">
                     <h3> <img src="res/swiss.png" class="swiss"><b><span class="color-red">Ελβετία</span></b></h3>
@@ -382,12 +407,10 @@
                 <br>
                 <br>
                 <br>
-                <br>
                 <b>2. Χρηματοδότηση</b>
                 <br>
                 Υπάρχει η δυνατότητα να λαμβάνουν χρηματοδοτήσεις από τα
                 Καντόνια και από την κεντρική κυβέρνηση.
-                <br>
                 <br>
                 <br>
                 <br>
@@ -411,8 +434,6 @@
                 <br>
                 <br>
                 <br>
-                <br>
-                <br>
                 <b>4. Δυνατότητες παρέμβασης στην εξουσία</b>
                 <br>
                 Οι ΜΚΟ στην Ελβετία μπορούν να παρέμβουν κατά την άσκηση της κρατικής εξουσίας με τα ίδια εργαλεία που
@@ -424,7 +445,7 @@
         </div>
     </div>
 
-    <div class="col-lg-6 ">
+    <div class="col-lg-6  no_right_padding">
         <div class="box">
             <div class="row white-back">
                 <div class="col-sm-12">
@@ -514,20 +535,23 @@
 
 <!----------------------->
 
-<div class="row highlight">
-    <div class="col-lg-12 "><h2>Συμπέρασμα</h2></div>
+<div class="row highlight" id="conclusion">
+    <div class="col-lg-12 ">
+        <h2>Συμπεράσματα</h2>
+        <!--<a href="#politiaImage">Top</a>-->
+    </div>
 </div>
 
 
 <div class="row hidden-xs hidden-md hidden-sm padding-top padding-bottom">
     <div class="col-lg-6 no_right_padding">
-        <div class="box">
+        <div class="box ">
             <img src="res/swiss.png">
         </div>
     </div>
 
-    <div class="col-lg-6">
-        <div class="box">
+    <div class="col-lg-6 no_right_padding ">
+        <div class="box margin-left">
             <img src="res/ellas.png">
         </div>
     </div>
@@ -820,8 +844,11 @@
 
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-
-
-
+<script src="js/SmouthScroll.js"></script>
+<script src="js/StickyContentBar.js"></script>
+<script src="js/easing.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/jquery.ui.totop.min.js"></script>
+<script src="js/jquery-1.7.2.min.js"></script>
 </body>
 </html>
