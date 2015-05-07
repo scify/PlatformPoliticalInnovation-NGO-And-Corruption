@@ -5,7 +5,10 @@ body {
     font-size: 13px;
     font-family: Ubuntu, sans-serif;
     position: relative;
+
 }
+
+
 h1, .h1{
     font-size: 26px;
 }
@@ -141,6 +144,11 @@ h3, .h3 {
 
 #wrapper{
     position: static;
+}
+
+#wrapper #contents li
+{
+  border-radius: 0;
 }
 
 #main-content #wrapper {
