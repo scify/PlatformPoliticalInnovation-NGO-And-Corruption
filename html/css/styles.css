@@ -2,16 +2,16 @@ h1, h2, h3{
     font-family: Ubuntu, sans-serif;
 }
 body {
-    font-size: 16px;
+    font-size: 14px;
     font-family: Ubuntu, sans-serif;
     position: relative;  
 }
 
 h1, .h1{
-    font-size: 26px;
+    font-size: 24px;
 }
 h2, .h2 {
-    font-size: 22px;
+    font-size: 24px;
 }
 
 h3, .h3 {
@@ -23,7 +23,7 @@ a, a:active, a:focus {
 }
 
 #politiaImage{
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .euro-map{
@@ -177,7 +177,7 @@ a, a:active, a:focus {
 }
 
 #main-content {
-    padding: 15px;
+    padding: 25px;
 }
 
 #wrapper{
@@ -216,8 +216,8 @@ a, a:active, a:focus {
 }
 
 #main-content .title.highlight {
-    padding-bottom: 24px;
-    padding-top: 24px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 #main-content h1, #main-content h2, #main-content h3, #main-content h4 {
@@ -226,7 +226,7 @@ a, a:active, a:focus {
 }
 
 .highlight h1 {
-    font-size: 26px;
+    font-size: 24px;
 }
 /* </editor-fold> */
 
@@ -279,7 +279,7 @@ a, a:active, a:focus {
 }
 
 .contentsMenu-placeholder{
-    margin: 0 0 20px 0;
+    margin: 0 0 15px 0;
 }
 
 
@@ -309,7 +309,7 @@ a, a:active, a:focus {
 }
 
 #contents li a {
-    line-height: 50px;
+    line-height: 25px;
     padding: 0 10px;
     font-size: 16px;
     color: #ffffff;
